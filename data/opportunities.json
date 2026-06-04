@@ -1,0 +1,125 @@
+{
+  "last_updated": "2026-06-04T15:00:24.534Z",
+  "run_date": "Thursday, 04 June 2026",
+  "total_opportunities": 5,
+  "urgent_count": 1,
+  "open_count": 5,
+  "sources_checked": 17,
+  "sources_accessible": 4,
+  "opportunities": [
+    {
+      "title": "Third call for proposals",
+      "programme": "Interreg Danube Region Programme",
+      "status": "OPEN",
+      "deadline": "15 Dec 2025",
+      "budget": null,
+      "support_intensity": null,
+      "eligible_beneficiaries": [
+        "Cross-border partnerships with at least 3 partners from different Danube region countries"
+      ],
+      "vessel_procurement_angle": "Priority 2 focuses on green transport in the Danube region. Based on the context mentioning PREMETER/DEMETER projects and green transport objectives (SO2.1, SO2.2, SO2.3), this call would likely support projects aimed at sustainable inland waterway transport, fleet modernization, and electrification initiatives where electric/hybrid vessels could be procured as project equipment.",
+      "target_customer_segment": "Romanian river transport companies, port operators, and municipalities that can partner with similar entities in other Danube countries (Austria, Germany, Bulgaria, etc.) for cross-border green transport projects",
+      "sales_pitch_angle": "Position this as an opportunity to modernize fleet with EU funding while building strategic international partnerships for sustainable Danube transport corridors.",
+      "relevance_score": 7,
+      "relevance_reason": "Strong fit given Priority 2 green transport focus and Danube waterway scope, though cross-border partnership requirement limits eligible prospects to those with international collaboration capacity",
+      "apply_url": "https://interreg-danube.eu/calls-for-proposals",
+      "deadline_urgency": "HIGH",
+      "source_name": "Interreg Danube Region Programme",
+      "source_id": "interreg-danube"
+    },
+    {
+      "title": "EUR 223.2 m for cross-sectoral solutions for the climate transition, sustainable, secure and competitive energy supply and efficient, sustainable and inclusive energy use",
+      "programme": "Horizon Europe",
+      "status": "OPEN",
+      "deadline": "15 September 2026",
+      "budget": "EUR 223.2 million",
+      "support_intensity": null,
+      "eligible_beneficiaries": [
+        "Research institutions",
+        "Companies developing sustainable energy solutions",
+        "Maritime energy technology developers",
+        "Transport decarbonization projects"
+      ],
+      "vessel_procurement_angle": "This large Horizon Europe call focuses on climate transition and sustainable energy supply. Electric or hybrid marine propulsion systems and vessels could fit as demonstration or pilot projects for sustainable transport solutions, particularly for inland waterway decarbonization initiatives.",
+      "target_customer_segment": "Companies or research consortiums developing sustainable maritime transport solutions, especially those working on electric propulsion systems or green shipping pilots",
+      "sales_pitch_angle": "With EUR 223.2M available for sustainable energy solutions, this is an opportunity to fund pilot projects demonstrating electric marine propulsion or hybrid vessel technologies as part of broader transport decarbonization initiatives.",
+      "relevance_score": 6,
+      "relevance_reason": "Good budget size and climate transition focus aligns with electric marine propulsion, though vessel procurement would need to be part of a larger research/demonstration project",
+      "apply_url": "/funding-opportunities/calls-proposals/eur-2232-m-cross-sectoral-solutions-climate-transition-sustainable-secure-and-competitive-energy_en",
+      "deadline_urgency": "LOW",
+      "source_name": "CINEA – Open Calls",
+      "source_id": "cinea-calls"
+    },
+    {
+      "title": "LIFE Climate Change Mitigation and Adaptation",
+      "programme": "LIFE",
+      "status": "OPEN",
+      "deadline": null,
+      "budget": null,
+      "support_intensity": null,
+      "eligible_beneficiaries": [
+        "NGOs",
+        "municipalities",
+        "public institutions",
+        "SMEs",
+        "private companies",
+        "local authorities"
+      ],
+      "vessel_procurement_angle": "Electric or hybrid vessels can be procured as demonstration projects for GHG reduction in inland waterway transport, particularly on the Danube. Projects focused on decarbonising transport, modal shift to waterways, or demonstrating zero-emission vessel technologies would justify vessel procurement as core project equipment.",
+      "target_customer_segment": "Environmental NGOs active on Danube, municipalities with waterway transport services, logistics companies near waterways seeking to demonstrate sustainable transport solutions",
+      "sales_pitch_angle": "Position electric vessels as demonstration equipment for EU-funded climate projects. Frame the conversation around showcasing zero-emission waterway transport as an alternative to road transport, with full EU grant coverage for the vessel as project equipment.",
+      "relevance_score": 6,
+      "relevance_reason": "Indirect fit - vessels could be part of broader climate demonstration projects, but not explicitly mentioned as eligible procurement. Strong prospect match with dealer's NGO and municipality customer base.",
+      "apply_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+      "deadline_urgency": "UNKNOWN",
+      "source_name": "LIFE Programme – Climate Action",
+      "source_id": "life-programme"
+    },
+    {
+      "title": "LIFE Clean Energy Transition",
+      "programme": "LIFE",
+      "status": "OPEN",
+      "deadline": null,
+      "budget": null,
+      "support_intensity": null,
+      "eligible_beneficiaries": [
+        "SMEs",
+        "municipalities",
+        "local authorities",
+        "energy agencies",
+        "private companies"
+      ],
+      "vessel_procurement_angle": "Electric marine engines and hybrid propulsion systems could be procured for projects demonstrating clean energy solutions in maritime transport. Shore power systems and electrification retrofits for existing vessel fleets would align with clean energy transition objectives.",
+      "target_customer_segment": "Port operators, municipalities with public vessel fleets, logistics companies operating on waterways, marina operators seeking to demonstrate clean energy solutions",
+      "sales_pitch_angle": "Frame electric engines and hybrid systems as clean energy demonstration equipment for EU-funded projects. Emphasize the dual benefit of reducing emissions while securing grant funding for fleet modernization through clean energy transition projects.",
+      "relevance_score": 5,
+      "relevance_reason": "Moderate fit - clean energy focus aligns well with electric engines and hybrid systems, though vessels not explicitly mentioned. Good match with dealer's port operator and municipality prospects.",
+      "apply_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+      "deadline_urgency": "UNKNOWN",
+      "source_name": "LIFE Programme – Climate Action",
+      "source_id": "life-programme"
+    },
+    {
+      "title": "Call for proposals \"Support to awareness raising about the Arctic communities, including Indigenous People\"",
+      "programme": "European Maritime, Fisheries and Aquaculture Fund (EMFAF)",
+      "status": "OPEN",
+      "deadline": "20 August 2026",
+      "budget": null,
+      "support_intensity": null,
+      "eligible_beneficiaries": [
+        "NGOs working with Arctic communities",
+        "Organizations promoting awareness of Indigenous People",
+        "Maritime-focused educational organizations"
+      ],
+      "vessel_procurement_angle": "This is an awareness-raising grant focused on Arctic communities and Indigenous People. Vessel procurement would only fit if an organization needed boats for educational or awareness activities related to Arctic maritime communities. Very indirect fit.",
+      "target_customer_segment": "Environmental NGOs or educational organizations that work on Arctic maritime issues and might need vessels for awareness campaigns or educational programs",
+      "sales_pitch_angle": "If your organization is planning Arctic awareness projects that involve water-based activities, this EMFAF grant could potentially fund vessels needed for educational demonstrations or community outreach programs.",
+      "relevance_score": 4,
+      "relevance_reason": "Very indirect fit - vessel procurement would be tangential to the main awareness-raising purpose, but maritime NGOs could potentially justify boats as educational tools",
+      "apply_url": "/funding-opportunities/calls-proposals/call-proposals-support-awareness-raising-about-arctic-communities-including-indigenous-people_en",
+      "deadline_urgency": "LOW",
+      "source_name": "CINEA – Open Calls",
+      "source_id": "cinea-calls"
+    }
+  ]
+}
