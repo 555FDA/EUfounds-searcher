@@ -28,7 +28,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run funding monitor
         env:
@@ -36,6 +36,7 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           LOOKBACK_DAYS: 7
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
