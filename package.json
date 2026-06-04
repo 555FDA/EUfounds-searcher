@@ -1,0 +1,17 @@
+{
+  "name": "eu-funding-monitor",
+  "version": "1.0.0",
+  "description": "AI-powered EU funding opportunity monitor for sustainable inland waterway projects in Romania",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "schedule": "node index.js --schedule",
+    "dry-run": "node index.js --dry-run",
+    "test": "node index.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13"
+  }
+}
