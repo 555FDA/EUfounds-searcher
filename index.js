@@ -15,6 +15,7 @@ const { SOURCES } = require("./src/sources");
 const { fetchUrl, htmlToText, truncateText, sleep } = require("./src/fetcher");
 const { analyzeSource, generateDigest } = require("./src/analyzer");
 const { sendDigestEmail } = require("./src/mailer");
+const { writeOpportunitiesToRepo } = require("./src/github-writer");
 const {
   loadState, saveState, filterNewOpportunities,
   updateSourceHealth, saveRunReport
@@ -29,6 +30,7 @@ const CONFIG = {
   EMAIL_FROM: process.env.EMAIL_FROM,
   EMAIL_PASSWORD: process.env.EMAIL_PASSWORD,
   EMAIL_TO: process.env.EMAIL_TO,
+  GH_PAT: process.env.GH_PAT,
   CRON_SCHEDULE: process.env.CRON_SCHEDULE || "0 8 * * 1", // Default: Monday 08:00
   LOOKBACK_DAYS: parseInt(process.env.LOOKBACK_DAYS || "7"),
   FETCH_DELAY_MS: 2500, // Polite delay between fetches
@@ -147,6 +149,10 @@ async function run(dryRun = false) {
   // ── PHASE 4: Save report ─────────────────────────────────────────────────
   const reportPath = saveRunReport(results, digest, OUTPUT_DIR);
   console.log(`\n💾 Report saved: ${reportPath}`);
+
+  // ── PHASE 4b: Write data to GitHub repo (feeds web app) ─────────────────
+  console.log(`\n📤 Writing opportunities to GitHub repo...`);
+  await writeOpportunitiesToRepo(results, CONFIG.GH_PAT);
 
   // ── PHASE 5: Send email ──────────────────────────────────────────────────
   if (!dryRun) {
